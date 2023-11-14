@@ -36,4 +36,3 @@
 '/notice/onenone/1'  => 1:1 상담 상세 게시물
 
 ---
-![image](https://github.com/ggengmo/Django_mini/assets/142369113/bd2293de-7e95-4936-a0bc-0854c9559a47)
