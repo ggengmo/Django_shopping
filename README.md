@@ -36,3 +36,28 @@
 '/notice/onenone/1'  => 1:1 상담 상세 게시물
 
 ---
+### 3.2 프로젝트 URL 구조
+|app: accounts |views 함수 이름|html 파일이름   |
+|:------------|:------------|:------------|
+|'signup/'     |signup        |signup.html   |
+|'login/'      |login         |login.html    |
+|'logout/'     |logout        |N/A|
+|'profile/'    |profile       |profile.html  |
+|'change_password/'|change_password|change_password.html|
+|'profile_update/'|profile_update|profile_update.html|
+
+|app: main |views 함수 이름|html 파일이름|
+|:--------|:------------|:---------|
+|'/'       |index         |index.html|
+|'about/'  |about         |about.html|
+|'contact/'  |contact         |contact.html|
+
+|app: product |views 함수 이름|html 파일이름|
+|:--------|:------------|:---------|
+|'<int:pk>/'  |product_detail         |product_detail.html|
+|'search/'|product_search|product_search.html|
+|404|404(없는 페이지)|404.html|
+|403|403(권한 없는 페이지)|403.html|
+
+
+
